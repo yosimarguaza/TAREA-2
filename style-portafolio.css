@@ -1,0 +1,173 @@
+.boy {
+  background: #e5e5e5;
+}
+
+/* styles header*/
+.header a:hover {
+  color: #2196f3;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+header.header {
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+  box-sizing: border-box;
+  padding: 31px 0;
+}
+
+.header ul {
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+.header li a {
+  color: #212121;
+}
+
+.header .porta {
+  color: #2196f3;
+}
+/*style nav*/
+
+nav.button {
+  margin: 80px auto 50px;
+  justify-content: center;
+}
+
+nav.button button {
+  background: #f5f4fa;
+  height: 38px;
+  padding: 0 15px;
+  margin: 0 4px;
+}
+
+nav.button button:hover {
+  color: white;
+  background-color: #2196f3;
+}
+
+.button li {
+  text-decoration: none;
+}
+.button li {
+  list-style: none;
+}
+
+.contec-image {
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 4px;
+}
+
+.contec-image {
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  margin: 37px 38px;
+  max-width: 1180px;
+}
+
+.contec-image div {
+  border: 1px solid #eeeeee;
+  width: 370px;
+  padding: 14px 0 20px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+}
+
+.contec-image div a {
+  display: block;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.contec-image div .h3:hover,
+.p:hover {
+  text-decoration: underline;
+}
+
+.contec-image div .h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.contec-image div .p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.contec-image .img {
+  width: 270px;
+  height: 260px;
+}
+
+.contec-image h3:hover,
+p:hover {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.footer {
+  color: #eeeeee;
+  background: #2f303a;
+  height: 252px;
+  padding-left: 215px;
+  padding: 60px 0 47px 215px;
+  display: block;
+}
+
+.footer-logo.link,
+.header .logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-logo:hover,
+.address a:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.footer li {
+  color: #ffffff99;
+}
+
+.footer ul {
+  margin-right: 70px;
+  padding: 0;
+}
+
+.direction li:hover {
+  text-decoration: underline;
+}
+
+address a {
+  text-decoration: none;
+  color: #ffffff99;
+}
+
+a.address-link {
+  color: #ffffff;
+  display: block;
+  width: 247px;
+}
